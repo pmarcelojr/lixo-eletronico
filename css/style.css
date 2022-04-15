@@ -236,6 +236,7 @@ p.subt{
     text-align: center;
     font-family:'lucida';
     padding-bottom:10px;
+    font-style: italic;
 } 
 .subt-n{
     font-size:18px;
@@ -337,3 +338,12 @@ p.classepi{
     margin-left:10%;
     margin-top: 18px;
 } 
+
+
+#sub-divc{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#cent{
+    margin: 5px;
+}
