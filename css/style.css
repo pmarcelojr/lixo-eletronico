@@ -1,15 +1,28 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* @font-face {font-family: safeplace;src: url('fontes/safeplace.ttf');} 
+@font-face{font-family: lastyears;src: url('fontes/lasteryears.ttf');} 
+@font-face{font-family: roboto;src: url('fontes/roboto.ttf');} 
+@font-face{font-family: robot-bold;src: url('fontes/Roboto-Bold.ttf');} 
+@font-face{font-family: lucida;src: url('fontes/lucida.ttf');}  */
+
 * {
     padding: 0;
     margin: 0
 }
 body {
     background-color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 } 
 *, *:after, *:before{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: roboto;
+    font-family: 'Roboto';
     font-size: 14px;
     line-height: 1.5;
 } 
@@ -87,7 +100,7 @@ body {
     text-align:justify;
 } 
 p.tx-index{
-    font-family:'safeplace';
+    font-family:'Kaushan Script', serif;
     font-size:40px;
     color:#fff;
     text-align:justify;
@@ -99,7 +112,7 @@ p.tx-index{
     color:#000;
     text-align: center;
     vertical-align:center;
-    font-family:'lastyears';
+    font-family:'Roboto Slab';
 } 
 .botao-site{
     margin-top:2%;
@@ -124,7 +137,7 @@ p.tx-index{
     bottom:0px;
 } 
 p.classep{
-    font-family:'roboto';
+    font-family:'Roboto';
     color:#fff;
     font-size:15px;
     margin-left:15%;
@@ -206,7 +219,7 @@ p.classep{
 }
 p.tit{
     font-size:35px;
-    font-family:'lastyears';
+    font-family:'Lobster';
     text-align:center;
     color:#000;
 } 
@@ -214,31 +227,32 @@ p.tit{
     width:100%;
     height:auto;
     padding-top:20px;
-    padding-bottom: 20px;
     background-color:#fff;
     padding-left:15px;
     padding-right:15px;
 }
 p.subt{
     font-size:18px;
-    text-align:justify;
+    text-align: center;
     font-family:'lucida';
     padding-bottom:10px;
 } 
-p.subt-n{
+.subt-n{
     font-size:18px;
     text-align:justify;
     font-family:'lucida';
     padding-bottom:10px;
+    padding-left: 15px;
     font-weight: 900;
 }
-#lista ul{
+.lista ul{
     list-style-type:disc;
     margin-left:10px;
     margin-bottom:20px;
     list-style-position: inside;
+    padding-left: 15px;
 } 
-#lista ul li{
+.lista ul li{
     list-style-type:disc;
     font-size:17px;
     color:#000;
@@ -246,22 +260,22 @@ p.subt-n{
     margin-right: 3%;
     text-align:justify;
 } 
-#lixo h2{
+.lixo h2{
     font-size:14px;
-    font-family:'lucida';
+    font-family:'Lobster';
     font-style:italic;
     color:#000;
     margin-left: 3%;
     margin-right: 3%;
     text-align: justify;
 } 
-#lixo h1{
+.lixo h1{
     font-size:23px;
-    font-family:'lastyears';
+    font-family:'Lobster';
     color:#000;
     margin-bottom:10px;
 }
-#lixo a{
+.lixo a{
     font-size:17px;
     color:#000;
     font-family:'lucida';
@@ -269,7 +283,7 @@ p.subt-n{
     margin-top: 10px;
     margin-bottom:10px;
 } 
-#lixo p{
+.lixo p{
     font-size:17px;
     color:#000;
     font-family:'lucida';
@@ -279,19 +293,19 @@ p.subt-n{
     margin-top:10px;
     margin-bottom:10px;
 } 
-#lixo table, th, td{
+.lixo table, th, td{
     border: 1px solid black;
     background-color: Honeydew;
     font-family: 'lucida';
 } 
-#lixo h3{
+.lixo h3{
     font-size:13px;
     font-family:'roboto';
     text-align:center;
     margin-bottom: 15px;
     color:#000;
 } 
-#lixo strong{
+.lixo strong{
     font-size:18px;
     color:#000;
     font-family:'lucida';
