@@ -215,7 +215,7 @@ p.classep{
     width:100%;
     height:100px;
     padding-top:25px;
-    background-color:#98FB98;
+    background-color:#98EFFB;
 }
 p.tit{
     font-size:35px;
@@ -296,15 +296,9 @@ p.subt{
 } 
 .lixo table, th, td{
     border: 1px solid black;
-    background-color: Honeydew;
+    background-color: rgb(240, 255, 246);
     font-family: 'lucida';
-} 
-.lixo h3{
-    font-size:13px;
-    font-family:'roboto';
-    text-align:center;
-    margin-bottom: 15px;
-    color:#000;
+    text-align: center;
 } 
 .lixo strong{
     font-size:18px;
@@ -318,7 +312,7 @@ p.subt{
 .divc{
     width:100%;
     height:50px;
-    background-color:#98FB98;
+    background-color:#98EFFB;
     padding-top:10px;
     padding-left: auto;
     padding-right:auto;
@@ -338,7 +332,20 @@ p.classepi{
     margin-left:10%;
     margin-top: 18px;
 } 
-
+.fonte-h3 {
+    font-size:13px;
+    font-family:'roboto';
+    text-align: center;
+    margin-bottom: 15px;
+    color:#000;
+}
+a.fonte {
+    text-decoration: none;
+}
+a.fonte:hover {
+    text-decoration: underline overline;
+    color: #000;
+}
 
 #sub-divc{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
