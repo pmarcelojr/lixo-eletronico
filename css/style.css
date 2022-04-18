@@ -130,7 +130,7 @@ p.tx-index{
 /* footer index*/
 .footer{
     position: absolute;
-    background-color: #000000;
+    /* background-color: #000000; */
     height: 70px;
     width: 100%;
     z-index: 1;
