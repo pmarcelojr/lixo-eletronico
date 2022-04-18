@@ -43,22 +43,22 @@ body {
     z-index: 0;
 } 
 .crossfade > figure:nth-child(1) {
-    background-image: url('./img/1.jpeg');
+    background-image: url('./img/lixo1.jpg');
 } 
 .crossfade > figure:nth-child(2) {
     animation-delay: 6s;
-    background-image:url('./img/2.jpg');
+    background-image:url('./img/lixo2.jpeg');
 } 
 .crossfade > figure:nth-child(3) {
-    background-image: url('./img/1.jpeg');
+    background-image: url('./img/cel2.jpg');
     animation-delay: 12s;
 }
 .crossfade > figure:nth-child(4) {
-    background-image: url('./img/2.jpg');
+    background-image: url('./img/lixo3.jpg');
     animation-delay: 18s;
 }
 .crossfade > figure:nth-child(5) {
-    background-image: url('./img/1.jpeg');
+    background-image: url('./img/lixo4.jpg');
     animation-delay: 24s;
 }
 
@@ -105,7 +105,7 @@ p.tx-index{
     color:#fff;
     text-align:justify;
 } 
-.tx-botao{
+.txbotao{
     word-spacing:1px;
     letter-spacing:2px;
     font-size:25px;
