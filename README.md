@@ -1,2 +1,2 @@
 # lixo-eletronico
-Site utilizando HTML + CSS para conclusão de APS
+Site utilizando HTML + CSS para conclusão da APS 2022
